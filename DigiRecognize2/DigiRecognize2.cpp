@@ -145,7 +145,7 @@ int recognize(Digit digit)
     {
         for (size_t j = 0; j < digit.m; j++)
         {
-            if (digit.digitmatr[i][j] == true)
+            if (digit.digitmatr[i][j] == true) //it is if
             {
                 flag = true;
                 tmpi = i;
